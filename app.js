@@ -66,7 +66,7 @@ function optionChanged(selectedID){
    // console.log(idSample[0].otu_labels);  
    
    // ----------------------------------------------------
-   // Slicing the top 10 values
+   // Slicing the top 10 sample values
    var sampleValue = idSample[0].sample_values.slice(0,10);
    sampleValue= sampleValue.reverse();
    var otuID = idSample[0].otu_ids.slice(0,10);
@@ -98,9 +98,9 @@ function optionChanged(selectedID){
        }
       },
       layout = {
-      title: 'Top 10 OTUs found in the individual',
-      xaxis: {title: 'Sample Values'},
-      yaxis: {title: 'OTU ids'}
+      title: 'Top 10 Operational Taxonomic Units (OTU) /Individual',
+      xaxis: {title: 'Number of Samples Collected'},
+      yaxis: {title: 'OTU Id'}
       };
 
       // Plotting the graph using plotly----------------------------------------
@@ -133,7 +133,9 @@ const trace1 = {
  },
 
  layout1 = {
-   title: 'Bubble chart or each sample',
+   title: 'Bubble Chart For Each Sample',
+   xaxis: {title: 'OTU Id'},
+   yaxis: {title: 'Number of Samples Collected'},
    showlegend: false,
    height: 800,
    width: 1800
@@ -153,7 +155,7 @@ const guageData = [
    {
      domain: { x: [0, 1], y: [0, 1] },
      value: washFreq,
-     title: { text: "Belly Button Washing Frequency <br> Scrubs per week" },
+     title: { text: "Belly Button Washing Frequency <br> (Scrubs Per Week)" },
      type: "indicator",
      mode: "gauge+number",     
    //   text: ['0-1','1-2','2-3','3-4','4-5','5-6','6-7','7-8','8-9'],
