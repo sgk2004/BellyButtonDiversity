@@ -5,7 +5,7 @@ An interactive dashboard to explore the Belly Button Biodiversity dataset, which
 ![](images/bacteria.jpg)
 
 
-![](images/dashboard.jpg)
+![](images/dashboard.JPG)
 
 ###### JavaScript file
 app.js
