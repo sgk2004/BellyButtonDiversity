@@ -55,7 +55,7 @@ Data/samples.json
  
  Deployed the app to a free static page hosting service, GitHub Pages.
  
- ###### Website [Belly Button Biodiversity Dashboard](https://sgk2004.github.io/BellyButtonDiversity/)
+ ###### Website [Belly Button Biodiversity Dashboard](https://sgk2004.github.io/BellyButtonDiversityDataSet/)
  
  
 
