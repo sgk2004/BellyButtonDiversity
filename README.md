@@ -1,5 +1,8 @@
 # Interactive Dashboard of a dataset in JSON format
-###### BellyButtonDiversity
+## BellyButtonDiversity
+
+ ###### Deployed Website [Belly Button Biodiversity Dashboard](https://sgk2004.github.io/BellyButtonDiversityDataSet/) 
+ 
 An interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
 
 
@@ -8,14 +11,19 @@ An interactive dashboard to explore the Belly Button Biodiversity dataset, which
 
 ![](images/dashboard.JPG)
 
+#### Codes
+
 ###### JavaScript file
-app.js
+[app.js](https://github.com/sgk2004/BellyButtonDiversityDataSet/blob/master/app.js)
 
 ###### HTML file
-index.html
+[index.html](https://github.com/sgk2004/BellyButtonDiversityDataSet/blob/master/index.html)
 
 ###### JSON Data
-Data/samples.json
+[samples.json](https://github.com/sgk2004/BellyButtonDiversityDataSet/blob/master/data/samples.json)
+
+
+#### Breakdown
 
 1. Used the D3 library to read in samples.json.
 
@@ -56,7 +64,7 @@ Data/samples.json
  
  Deployed the app to a free static page hosting service, GitHub Pages.
  
- ###### Website [Belly Button Biodiversity Dashboard](https://sgk2004.github.io/BellyButtonDiversityDataSet/)
+
  
  
 
